@@ -2,6 +2,7 @@
 .body
 {
    background-image: url("images/1.jpeg");
+   
 }
 
 .logo
@@ -22,7 +23,7 @@
    max-height: 150px;
    background-color: #ffe6c3;
    opacity: 0.6;
-   margin: 5px 170px 0 170px;
+   margin: 20px 170px 0 170px;
 }
 .title
 {
@@ -61,11 +62,7 @@
     margin: 10px;
 
 }
-.footer
-{
-    min-height: 100px;
-   
-}
+
 .details
 {
     min-height: 500px;
@@ -84,6 +81,7 @@
     min-height: 500px;
     padding-top: 40px;
     padding-left: 50px;
+    min-height: 500px;
 }
 .list
 {
@@ -105,3 +103,25 @@
     --bs-btn-disabled-bg: #6c757d;
     --bs-btn-disabled-border-color: #6c757d;
 }
+.footer
+{
+    min-height: 100px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+   
+}
+.margin
+{
+   margin-bottom: 310px;
+}
+.zoom {
+ 
+    transition: transform .2s; /* Animation */
+
+}
+  
+  .zoom:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
